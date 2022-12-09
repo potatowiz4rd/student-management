@@ -168,9 +168,6 @@ const App = () => {
       loi += "Điền lại ngày sinh(Theo định dạng: nn/tt/nnnn)";
     }
     return loi;
-
-
-
   }
   function laNgayThang(d) {
     var s = d.split("/");
@@ -236,13 +233,13 @@ const App = () => {
         </table>
       </form>
 
-      <h2>Thêm mới</h2>
-      <form id="ok" onSubmit={handleStudentSubmit}>
+      <h2>Thêm mới sinh viên vào trường sau:</h2>
+      <form  id="ok" onSubmit={handleStudentSubmit}>
         <div>
-          <input type="text" name='msv' required="required" placeholder="Điền MSV" onChange={handleAddStudent} />
-          <input type="text" name='fullname' required="required" placeholder="Điền tên" onChange={handleAddStudent} />
-          <input type="text" name='birth' required="required" placeholder="Điền ngày sinh" onChange={handleAddStudent} />
-          <input type="text" name='address' required="required" placeholder="Quê quán" onChange={handleAddStudent} />
+          <label>Mã số SV :</label><input type="text" name='msv' required="required" placeholder="Điền MSV" onChange={handleAddStudent} /> <br/>
+          <label>Họ và tên :</label><input type="text" name='fullname' required="required" placeholder="Điền tên" onChange={handleAddStudent} /> <br/>
+          <label>Ngày sinh:</label><input type="text" name='birth' required="required" placeholder="Điền ngày sinh" onChange={handleAddStudent} /> <br/>
+          <label>Quê quán:</label><input type="text" name='address' required="required" placeholder="Quê quán" onChange={handleAddStudent} /> <br/>
         </div>
         <div>
           <button type="submit" >Thêm</button>
