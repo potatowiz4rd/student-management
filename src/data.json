@@ -1,32 +1,32 @@
 [
   {
     "msv": "20020255",
-    "fullname": "A",
-    "birth": "333-962-7516",
-    "address": "jenny.chan@email.com"
+    "fullname": "Hoàng Văn Phong",
+    "birth": "25/12/2000",
+    "address": "Hà Nội"
   },
   {
     "msv": "20020256",
-    "fullname": "V",
-    "birth": "333-962-7516",
-    "address": "jenny.chan@email.com"
+    "fullname": "Nguyễn Quế Hải",
+    "birth": "25/6/2003",
+    "address": "Hải Phòng"
   },
   {
     "msv": "20020275",
-    "fullname": "C",
-    "birth": "333-962-7516",
-    "address": "jenny.chan@email.com"
+    "fullname": "Phạm Thanh Tú",
+    "birth": "05/02/2000",
+    "address": "Thái Nguyên"
   },
   {
     "msv": "20020285",
-    "fullname": "D",
-    "birth": "333-962-7516",
-    "address": "jenny.chan@email.com"
+    "fullname": "Nguyễn Việt Tân",
+    "birth": "25/11/2002",
+    "address": "Ninh Bình"
   },
   {
     "msv": "20020225",
-    "fullname": "E",
-    "birth": "333-962-7516",
-    "address": "jenny.chan@email.com"
+    "fullname": "Một Hai Ba",
+    "birth": "23/03/2000",
+    "address": "Quảng Ninh"
   }
 ]
